@@ -1,0 +1,9 @@
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\bin\Debug\FurnaceControl.exe.config
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.csprojResolveAssemblyReference.cache
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.Form1.resources
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.Properties.Resources.resources
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.csproj.GenerateResource.Cache
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\bin\Debug\FurnaceControl.exe
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\bin\Debug\FurnaceControl.pdb
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.exe
+c:\users\eric\documents\visual studio 2012\Projects\FurnaceControl\FurnaceControl\obj\Debug\FurnaceControl.pdb
