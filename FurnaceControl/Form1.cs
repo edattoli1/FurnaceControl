@@ -27,7 +27,7 @@ namespace FurnaceControl
         {
             port.Open();
             // \x0201010WWRD0121,01,0001\x03
-            port.Write(Int32.Parse("02", NumberStyles.HexNumber) + "01010WWRD0121,01,0001" + Int32.Parse("02", NumberStyles.HexNumber) +Int32.Parse("0D", NumberStyles.HexNumber) ) ;
+            port.Write( (char) 2 + "01010WWRD0121,01,0001" + (char) 2 + '\r' ) ;
             port.Close();
         }
 
@@ -39,9 +39,9 @@ namespace FurnaceControl
         private void offButton_Click(object sender, EventArgs e)
         {
             port.Open();
-            // \x0201010WWRD0121,01,0000\x03
+            // \x0201010WWRD0121,01,0000\x03   Int32.Parse("0D", NumberStyles.HexNumber)
 
-            port.Write(Int32.Parse("02", NumberStyles.HexNumber) + "01010WWRD0121,01,0000" + Int32.Parse("02", NumberStyles.HexNumber) +Int32.Parse("0D", NumberStyles.HexNumber) ) ;
+            port.Write( (char) 2 + "01010WWRD0121,01,0000" + (char) 2 + '\r' ) ;
             port.Close();
         }
     }
