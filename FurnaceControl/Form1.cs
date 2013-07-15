@@ -25,7 +25,6 @@ namespace FurnaceControl
 
         private void onButton_Click(object sender, EventArgs e)
         {
-            port.Open();
             // \x0201010WWRD0121,01,0001\x03
             port.Write( (char) 2 + "01010WWRD0121,01,0001" + (char) 3 + '\r' ) ;
             
